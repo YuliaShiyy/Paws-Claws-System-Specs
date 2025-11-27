@@ -64,8 +64,8 @@ An Orthogonal Variability Model (OVM) was constructed to manage service variants
 Requirements were specified using the Card, Conversation, Confirmation pattern to ensure they are ready for Verification & Validation (V&V).
 | Feature | Link |
 |:---|:---|
-| **Full List** | [📄 **View Full Requirements Table (105+ User Stories)**](./docs/REQUIREMENTS_FINAL.md) |
-| **Source Data** | [📊 View Raw CSV Data](./raw_requirements_export.csv) |
+| **Full List** | [📄 **View Full Requirements Table (105+ User Stories)**](./docs/REQUIREMENTS_SORTED.md) |
+| **Source Data** | [📊 View Raw CSV Data](./requirements_specification.csv) |
 
 Specification Preview:
 The table below highlights the "Verification Criteria" column, generated automatically by the Python pipeline.
@@ -87,10 +87,15 @@ Performance: <200ms latency targets for real-time booking availability.
 
 ---
 
-### 🎓 Academic Context
-This project was designed and executed as a comprehensive semester-long case study for the **Advanced Requirements Engineering of IT-systems (HT2025)** course at **Stockholm University**.
+### 🎓 Academic Context & Individual Contribution
+This project was executed as a semester-long case study for the **Advanced Requirements Engineering of IT-systems (HT2025)** course at **Stockholm University**.
 
-* **Team Structure:** Collaborative effort by a **3-person engineering team**.
-* **Focus:** Bridging theoretical frameworks (V-Model, ISO standards) with practical application in a simulated safety-critical environment.
-* **Contribution:** While the project was a team effort, the artifacts presented here (Data Pipelines, System Models, and Specifications) reflect the rigorous standards applied throughout the collaboration.
+While the project was a collaborative effort by a 3-person team, my specific **individual contributions** include:
 
+* **Lead Requirements Engineer:**
+    * **Sole Author:** Personally authored all **105+ User Stories**, defining the strict **CCC Pattern** (Card, Conversation, Confirmation) and Acceptance Criteria.
+    * **Variability Modeling:** Independently designed and constructed the **Orthogonal Variability Model (OVM)** to handle system scalability.
+* **Automation & Tooling (Python):**
+    * **Sole Developer:** Independently engineered the **Python Data Pipeline** (`process_requirements.py`) to automate the cleaning, formatting, and generation of documentation from raw Miro logs, demonstrating a "Docs-as-Code" mindset.
+* **Project Leadership:**
+    * Led the system decomposition strategy and coordinated the team's effort in developing Goal Models (4EM) and Non-Functional Requirements (NFRs).
