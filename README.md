@@ -17,12 +17,12 @@ Beyond standard specification practices, this project demonstrates a **"Docs-as-
 The project is organized to demonstrate the transformation from "Raw Data" to "Structured Documentation":
 
 ```text
-├── process_requirements.py      # 🐍 Python ETL Script (Data Cleaning & Logic)
-├── raw_requirements_export.csv  # 📄 Raw Data Source (Exported from Miro)
+├── process_requirements.py                            # 🐍 Python ETL Script (Data Cleaning & Logic)
+├── requirements_specification.csv                     # 📄 Raw Data Source (Exported from Miro)
 ├── docs/
-│   ├── REQUIREMENTS_FINAL.md    # ✅ Generated Structured Documentation (Markdown)
-│   └── full_specification.pdf   # 📐 High-Res System Architecture (Vector PDF)
-└── assets/                      # 🖼️ Diagrams & Models
+│   ├── REQUIREMENTS_SORTED.md                         # ✅ Generated Structured Documentation (Markdown)
+│   └── full_system_specification_document.pdf         # 📐 High-Res System Architecture (Vector PDF)
+└── assets/                                            # 🖼️ Diagrams & Models
 ```
 ---
 
@@ -84,4 +84,13 @@ Safety Assurance: Automated alerts for animal health monitoring.
 Compliance: GDPR data retention policies for customer PII.
 
 Performance: <200ms latency targets for real-time booking availability.
+
+---
+
+### 🎓 Academic Context
+This project was designed and executed as a comprehensive semester-long case study for the **Advanced Requirements Engineering of IT-systems (HT2025)** course at **Stockholm University**.
+
+* **Team Structure:** Collaborative effort by a **3-person engineering team**.
+* **Focus:** Bridging theoretical frameworks (V-Model, ISO standards) with practical application in a simulated safety-critical environment.
+* **Contribution:** While the project was a team effort, the artifacts presented here (Data Pipelines, System Models, and Specifications) reflect the rigorous standards applied throughout the collaboration.
 
